@@ -5,7 +5,7 @@ from django_daraja.mpesa.core import MpesaClient
 def index(request):
     cl = MpesaClient()
     # Use a Safaricom phone number that you have access to, for you to be able to view the prompt.
-    phone_number = '0713860226'
+    phone_number = 'phone_number'
     amount = 1
     account_reference = 'Bericks Designs'
     transaction_desc = 'Pay to Bericks'
